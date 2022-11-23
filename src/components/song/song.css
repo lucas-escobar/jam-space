@@ -1,0 +1,14 @@
+.Song{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.Song__Title{
+    font-size: 2rem;
+}
+
+.Song__Artist{
+    font-size: 1.3rem;
+}
