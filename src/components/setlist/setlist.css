@@ -1,5 +1,11 @@
 .Setlist{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 1rem;
+    margin: 1rem;
+    background-color: var(--color-bg);
+}
+
+.Setlist__Song{
+    
 }

@@ -4,7 +4,8 @@ import Song from './components/song/Song.jsx';
 export default function App(){
     return(
         <>
-            <Setlist setList={[<Song title="Test Title 1" artist="Test Artist 1" />]} />
+            <Setlist setList={[<Song title="Blinding Lights" artist="The Weeknd" />,
+                            <Song title="Test Title 2" artist="Test Artist 2" />]} />
         </>
     )
 }

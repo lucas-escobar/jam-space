@@ -8,10 +8,11 @@ export default function Setlist(props){
      */
     const [name, setName] = useState(props.name);
     const [setList, updateSetList] = useState(props.setList);
+    // TODO use production style keys
     return(
         <section className="Setlist">
-            {setList.map((song) => 
-                <div className="Setlist__Song">{song}</div>
+            {setList.map((song, ind) => 
+                <div className="Setlist__Song" key={ind}>{song}</div>
             )}
         </section>
     );

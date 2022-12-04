@@ -3,6 +3,7 @@
     flex-direction: column;
     gap: 0.5rem;
     margin: 1rem;
+    color: var(--color-on-primary);
 }
 
 .Song__Title{
